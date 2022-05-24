@@ -60,10 +60,10 @@ const Task = ({ task: { id, content }, index }) => {
 					}`}
 				>
 					{/* Handler
-					<div
-						className="w-4 h-4 bg-orange-300 border-2 border-orange-300 mr-2 rounded-md"
-						{...provided.dragHandleProps}
-					></div> */}
+          <div
+            className="w-4 h-4 bg-orange-300 border-2 border-orange-300 mr-2 rounded-md"
+            {...provided.dragHandleProps}
+          ></div> */}
 					{content}
 				</div>
 			)}
